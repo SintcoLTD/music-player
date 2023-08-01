@@ -5,16 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Site Favicon -->
-    <link rel="shortcut icon" href="Resources\Favicon\favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="Resources\Favicon\music-solid-favicon.svg" type="image/x-icon">
     <!-- link style.css -->
     <link rel="stylesheet" href="style.css">
     <script>src = "script.js"</script>
+    <!-- Linking Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Lite Music Player</title>
 </head>
 
-<body>
+<body class="lightMode" class="darkMode">
     <div class="container">
-        <h1>Lite Music Player</h1>
+        <h1 class="title">Lite Music Player</h1>
         <div class="music-player">
             <audio id="audioPlayer">
                 Your browser does not support the audio element.
