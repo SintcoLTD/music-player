@@ -1,12 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Site Favicon -->
+    <link rel="shortcut icon" href="Resources\Favicon\music-solid-favicon.svg" type="image/x-icon">
+    <!-- link style.css -->
+    <link rel="stylesheet" href="style.css">
+    <script>src = "script.js"</script>
+    <!-- Linking Fonts -->
     <title>Lite Music Player</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+
+<body class="lightMode" class="darkMode">
     <div class="container">
-        <h1>Lite Music Player</h1>
+        <h1 class="title">Lite Music Player</h1>
         <div class="music-player">
             <audio id="audioPlayer">
                 Your browser does not support the audio element.
@@ -29,6 +38,7 @@
             </div>
         </div>
     </div>
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
