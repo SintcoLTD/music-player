@@ -176,3 +176,28 @@ body {
 #speedSelect:focus{
     outline: none;
 }
+
+.watermark {
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #ccc;
+}
+
+a {
+    color: blue;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .github-link {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #58ca5b;
+  }
+  
+  .github-link-1:hover {
+    background-color: hsl(122, 39%, 41%);
+    color: white;
+  }
