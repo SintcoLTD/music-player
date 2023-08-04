@@ -6,6 +6,8 @@ Lightweight HTML MP3 Player
 Clone or download the repository. edit songs.json for your songs
 
 # Credits
+## Contributers
+Thanks to @sulaymaanajmal for improving this program
 
 ## Song
 
