@@ -1,9 +1,11 @@
 # music-player
 Lightweight HTML MP3 Player
 
-# how to use
+# How to Use
 
 Clone or download the repository. edit songs.json for your songs
+
+## View the preview at https://sulaymaanajmal.github.io/music-player/
 
 # Credits
 ## Contributers
